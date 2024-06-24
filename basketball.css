@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    
+}
+
+.main {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.icon {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu ul li {
+    margin: 0 10px;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.srch {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.btn {
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: orange;
+}
+.wiki {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: whitesmoke;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.wiki p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.wiki br {
+    display: none; 
+}    
+.zaglawie {
+    text-align: center;
+   
+    padding: 20px; 
+    border-radius: 10px;
+    margin: 20px auto; 
+    max-width: 800px; 
+    color: orange; 
+}
+
+.zaglawie h1 {
+    margin: 0; 
+    font-family: 'Arial', sans-serif; 
+    font-size: 2.5em; 
+    font-weight: bold; 
+}
+td {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+}
+
+.table-container {
+    width: 100%; 
+    overflow-x: auto; 
+}
+.table-container a {
+    color: white;
+    text-decoration: none;
+
+}
+.table-container a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+.table-container h2{
+    color: orange;
+}
+.table-container p {
+    color: white;
+}
+.table-container h3{
+    color: orange;
+}
+.table-container h4{
+    color: white;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: -250px;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.footer-content .social-media {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content .social-media li {
+    margin: 0 10px;
+}
+
+.footer-content .social-media li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.footer-content .social-media li a:hover {
+    color: orange;
+    text-decoration: underline;
+}
